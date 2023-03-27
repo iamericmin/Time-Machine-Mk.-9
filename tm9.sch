@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -13347,6 +13347,190 @@ high temperature heat resistance.
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Memory">
+<description>&lt;h3&gt;SparkFun Memory ICs&lt;/h3&gt;
+This library contains memory ICs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SO08">
+<description>SOIC, 0.15 inch width</description>
+<wire x1="2.3368" y1="1.9463" x2="-2.3368" y2="1.9463" width="0.2032" layer="21"/>
+<wire x1="2.4368" y1="-1.9463" x2="2.7178" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
+<wire x1="-2.7178" y1="1.4653" x2="-2.3368" y2="1.9463" width="0.2032" layer="21" curve="-90.023829"/>
+<wire x1="2.3368" y1="1.9463" x2="2.7178" y2="1.5653" width="0.2032" layer="21" curve="-90.030084"/>
+<wire x1="-2.7178" y1="-1.6653" x2="-2.3368" y2="-1.9463" width="0.2032" layer="21" curve="90.060185"/>
+<wire x1="-2.3368" y1="-1.9463" x2="2.4368" y2="-1.9463" width="0.2032" layer="21"/>
+<wire x1="2.7178" y1="-1.5653" x2="2.7178" y2="1.5653" width="0.2032" layer="21"/>
+<wire x1="-2.667" y1="0.6096" x2="-2.667" y2="-0.6604" width="0.2032" layer="21" curve="-180"/>
+<wire x1="-2.7178" y1="1.4526" x2="-2.7178" y2="0.6096" width="0.2032" layer="21"/>
+<wire x1="-2.7178" y1="-1.6653" x2="-2.7178" y2="-0.6604" width="0.2032" layer="21"/>
+<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
+<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
+<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
+<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
+<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
+<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
+<polygon width="0.002540625" layer="21">
+<vertex x="-2.69875" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.06375" curve="90"/>
+<vertex x="-3.33375" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.69875" curve="90"/>
+</polygon>
+</package>
+<package name="USON_3X2MM">
+<description>USON (UDFN) 3x2mm</description>
+<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.1" layer="51"/>
+<smd name="1" x="-1.325" y="0.75" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="2" x="-1.325" y="0.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="3" x="-1.325" y="-0.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="4" x="-1.325" y="-0.75" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="5" x="1.325" y="-0.75" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="6" x="1.325" y="-0.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="7" x="1.325" y="0.25" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<smd name="8" x="1.325" y="0.75" dx="0.25" dy="0.6" layer="1" rot="R270"/>
+<text x="0" y="1.5" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.002540625" layer="21">
+<vertex x="-1.93125" y="1.09875" curve="90"/>
+<vertex x="-1.61375" y="1.41625" curve="90"/>
+<vertex x="-1.93125" y="1.73375" curve="90"/>
+<vertex x="-2.24875" y="1.41625" curve="90"/>
+</polygon>
+<wire x1="-1.7" y1="-1.1" x2="-1.7" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="-1.7" y1="-1.2" x2="-1.2" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="1.2" y1="-1.2" x2="1.7" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="1.7" y1="-1.1" x2="1.7" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="1.2" y1="1.2" x2="1.7" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="1.7" y1="1.2" x2="1.7" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="-1.7" y1="1.2" x2="-1.25" y2="1.2" width="0.2032" layer="21"/>
+<wire x1="-1.7" y1="1.2" x2="-1.7" y2="1.1" width="0.2032" layer="21"/>
+<rectangle x1="-0.1" y1="-0.8" x2="0.1" y2="0.8" layer="41"/>
+<rectangle x1="-1.4" y1="0.625" x2="-1.05" y2="0.875" layer="51"/>
+<rectangle x1="-1.4" y1="-0.375" x2="-1.05" y2="-0.125" layer="51"/>
+<rectangle x1="-1.4" y1="0.125" x2="-1.05" y2="0.375" layer="51"/>
+<rectangle x1="-1.4" y1="-0.875" x2="-1.05" y2="-0.625" layer="51"/>
+<rectangle x1="1.05" y1="0.625" x2="1.4" y2="0.875" layer="51"/>
+<rectangle x1="1.05" y1="0.125" x2="1.4" y2="0.375" layer="51"/>
+<rectangle x1="1.05" y1="-0.375" x2="1.4" y2="-0.125" layer="51"/>
+<rectangle x1="1.05" y1="-0.875" x2="1.4" y2="-0.625" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SPI_FLASH-1">
+<description>&lt;h3&gt; Flash &lt;/h3&gt;</description>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="5.334" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-10.16" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<pin name="CE" x="-12.7" y="2.54" length="short"/>
+<pin name="SO" x="-12.7" y="0" length="short"/>
+<pin name="WP" x="-12.7" y="-2.54" length="short"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="VCC" x="12.7" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="HOLD" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="SCK" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="SI" x="12.7" y="-5.08" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SST25VF020B" prefix="U">
+<description>&lt;h3&gt;2Mbit Serial Flash Memory&lt;/h3&gt;
+&lt;p&gt;8pin SPI Flash&lt;/p&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005054D.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPI_FLASH-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SO08_INDUSTRIAL_TEMP" package="SO08">
+<connects>
+<connect gate="G$1" pin="CE" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="HOLD" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="WP" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART" value=" SST25VF020B-80-4I-SAE-TCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip" constant="no"/>
+<attribute name="MANU_PART" value="SST25VF020B-80-4I-SAE-T" constant="no"/>
+<attribute name="MOUSER_PART" value="579-25VF020B8ISAET" constant="no"/>
+<attribute name="PROD_ID" value="IC-15319" constant="no"/>
+<attribute name="VALUE" value="2Mbit SPI Flash" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="USON" package="USON_3X2MM">
+<connects>
+<connect gate="G$1" pin="CE" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="HOLD" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="WP" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_PART" value="SST25VF020B-80-4I-Q3AE-TCT-ND" constant="no"/>
+<attribute name="MANU_PART" value="SST25VF020B-80-4I-Q3AE-T" constant="no"/>
+<attribute name="PROD_ID" value="IC-15716" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SO08_COMMERCIAL_TEMP" package="SO08">
+<connects>
+<connect gate="G$1" pin="CE" pad="1"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="HOLD" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="WP" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16021" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13400,6 +13584,7 @@ high temperature heat resistance.
 <part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-20MM_SMD_4LEGS_OVERPASTE_INNER"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_06" device="JST-SMD-LOCKING"/>
 <part name="BT2" library="SparkFun-Batteries" deviceset="RELOWABLE_BATTERY" device="_ML414H"/>
+<part name="U1" library="SparkFun-IC-Memory" deviceset="SST25VF020B" device="USON"/>
 </parts>
 <sheets>
 <sheet>
@@ -13565,6 +13750,10 @@ high temperature heat resistance.
 <instance part="BT2" gate="G$1" x="-78.74" y="144.78" smashed="yes">
 <attribute name="NAME" x="-78.74" y="149.098" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-78.74" y="140.462" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="U1" gate="G$1" x="114.3" y="162.56" smashed="yes">
+<attribute name="NAME" x="104.14" y="167.894" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="104.14" y="154.686" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -13761,15 +13950,6 @@ high temperature heat resistance.
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="LCD1" gate="G$1" pin="4"/>
-<wire x1="99.06" y1="134.62" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="116.84" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
-<label x="99.06" y="116.84" size="1.778" layer="95" rot="R90"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
-<junction x="99.06" y="129.54"/>
-</segment>
-<segment>
 <wire x1="-40.64" y1="114.3" x2="-38.1" y2="114.3" width="0.1524" layer="91"/>
 <label x="-33.02" y="114.3" size="1.778" layer="95"/>
 <pinref part="R20" gate="G$1" pin="2"/>
@@ -13779,15 +13959,6 @@ high temperature heat resistance.
 </segment>
 </net>
 <net name="SDA" class="0">
-<segment>
-<pinref part="LCD1" gate="G$1" pin="5"/>
-<wire x1="101.6" y1="127" x2="101.6" y2="134.62" width="0.1524" layer="91"/>
-<label x="101.6" y="116.84" size="1.778" layer="95" rot="R90"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="127" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
-<junction x="101.6" y="127"/>
-</segment>
 <segment>
 <wire x1="-40.64" y1="119.38" x2="-35.56" y2="119.38" width="0.1524" layer="91"/>
 <label x="-33.02" y="119.38" size="1.778" layer="95"/>
@@ -13987,6 +14158,11 @@ high temperature heat resistance.
 <wire x1="137.16" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
 <junction x="134.62" y="127"/>
 </segment>
+<segment>
+<pinref part="U2" gate="U1" pin="(SDA1/SDI1/RX1/SCCIO)D9"/>
+<wire x1="134.62" y1="71.12" x2="144.78" y2="71.12" width="0.1524" layer="91"/>
+<label x="139.7" y="71.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL1" class="0">
 <segment>
@@ -13997,6 +14173,11 @@ high temperature heat resistance.
 <wire x1="132.08" y1="129.54" x2="132.08" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
 <junction x="132.08" y="129.54"/>
+</segment>
+<segment>
+<pinref part="U2" gate="U1" pin="(SCL1/SCK1/TX1/SCCLK)D8"/>
+<wire x1="134.62" y1="73.66" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
+<label x="139.7" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ALT" class="0">
@@ -14033,6 +14214,80 @@ high temperature heat resistance.
 <segment>
 <pinref part="R30" gate="G$1" pin="1"/>
 <pinref part="D6" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="SCL0" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="(SCL0/SCK0)~D5"/>
+<wire x1="134.62" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
+<label x="139.7" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA0" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="(SDA0/SDI0/I2SDAT)~D6"/>
+<wire x1="134.62" y1="78.74" x2="144.78" y2="78.74" width="0.1524" layer="91"/>
+<label x="139.7" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA2" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="(SDA2/SDI2/RX1)~D25"/>
+<wire x1="134.62" y1="45.72" x2="144.78" y2="45.72" width="0.1524" layer="91"/>
+<label x="139.7" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LCD1" gate="G$1" pin="5"/>
+<wire x1="101.6" y1="127" x2="101.6" y2="134.62" width="0.1524" layer="91"/>
+<label x="101.6" y="116.84" size="1.778" layer="95" rot="R90"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="127" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
+<junction x="101.6" y="127"/>
+</segment>
+</net>
+<net name="SCL2" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="(SCL2/SCK2)~D27"/>
+<wire x1="134.62" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
+<label x="139.7" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LCD1" gate="G$1" pin="4"/>
+<wire x1="99.06" y1="134.62" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="116.84" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+<label x="99.06" y="116.84" size="1.778" layer="95" rot="R90"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+<junction x="99.06" y="129.54"/>
+</segment>
+</net>
+<net name="SCL4" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="(SCL4/SCK4/TX1)~D39"/>
+<wire x1="134.62" y1="27.94" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
+<label x="139.7" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA4" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="(SDA4/SDI4/RX1)D40"/>
+<wire x1="144.78" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
+<label x="139.7" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL3" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="(SCL3/SCK3/TX1)~D42"/>
+<wire x1="134.62" y1="20.32" x2="144.78" y2="20.32" width="0.1524" layer="91"/>
+<label x="139.7" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA3" class="0">
+<segment>
+<pinref part="U2" gate="U1" pin="(SDA3/SDI3/RX1)~D43"/>
+<wire x1="144.78" y1="17.78" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
+<label x="139.7" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
